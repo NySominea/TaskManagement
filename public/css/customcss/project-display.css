@@ -1,0 +1,17 @@
+#project_list table tr td:nth-child(3){
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px;
+    min-width: 100px;
+}
+
+table tr td{
+    vertical-align: middle !important;
+}
+
+
+.module-name,
+.task-name{
+    border: none;
+    background-color: inherit;
+}
